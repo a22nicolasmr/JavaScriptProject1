@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 4</title>
+</head>
+<body>
+    <h1 id="title">My fourth JavaScript</h1>
+    <h2 class="sex">This is a secondary title</h2>
+    <p>This is a sad paragraph</p>
+    <p class="sex">This is a ugly paragraph</p>
+    <script>
+        var h1=document.getElementById("title");
+        h1.style.color="blue";
+        var h2=document.getElementsByClassName("sex");
+        h2[0].style.backgroundColor="plum";
+        h2[1].style.backgroundColor="aquamarine";
+        var paragraph=document.getElementsByTagName("p");
+        paragraph[0].style.color="red";
+    </script>
+</body>
+</html>
